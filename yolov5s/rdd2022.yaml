@@ -1,0 +1,20 @@
+path: /cluster/work/salara/TDT17/data  # dataset root dir
+train: 
+    - China_Drone/train/images/ 
+    - China_MotorBike/train/images/
+    - Czech/train/images/ 
+    - India/train/images/  
+    - Japan/train/images/ 
+    - Norway/train/images/  
+    - United_States/train/images/      
+val: 
+    - China_MotorBike/test/images/
+    - Czech/test/images/ 
+    - India/test/images/  
+    - Japan/test/images/ 
+    - Norway/test/images/  
+    - United_States/test/images/ 
+test: 
+
+nc: 4
+names: ['D00', 'D10', 'D40', 'D20']

@@ -1,0 +1,11 @@
+path: /cluster/work/salara/TDT17/datav2/data  # dataset root dir
+train: 
+    - Japan/train/autosplit_train.txt     
+val: 
+    - Japan/train/autosplit_val.txt 
+test: 
+    - Japan/test/images/ 
+
+
+nc: 4
+names: ['D00', 'D10', 'D20', 'D40']
