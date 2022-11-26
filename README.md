@@ -1,4 +1,5 @@
 # TDT17 Mini Project
+This is the final project for TDT17. For this task we are going to detect Road damage detection. This repositry consist of the results and overall models used for the detection.
 
 
 ## Folder Structure
