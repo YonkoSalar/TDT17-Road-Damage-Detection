@@ -20,7 +20,7 @@ The dataset is given from [github](https://github.com/sekilab/RoadDamageDetector
 
 
 ## Method
-YOLOv5 is used for the object detection. The model is trained on the RDD2022 dataset. The model is trained on classes mentioned above. The model is trained on 80% of the training dataset and tested on the remaining 20% of training data. The model is trained on cluster computer IDUN at NTNU with GPU enabled. The final result of model did not use the last dataset from Norwegian dataset `yolov5s/runs/train/exp7` as the model performance became worse. The final model can therefore be found in `yolov5s/runs/train/exp6`. The best weights from each country saved in the different runs. The final model was trained with following slurm commands on IDUN:
+YOLOv5 is used for the object detection. The model is trained on the RDD2022 dataset. The model is trained on classes mentioned above. The model is trained on 80% of the training dataset and tested on the remaining 20% of training data. The model is trained on cluster computer IDUN at NTNU with GPU enabled. The final result of model did not use the last dataset from Norwegian dataset `yolov5s/runs/train/exp7` as the model performance became worse The best weights from each country saved in the different runs. The final model was trained with following slurm commands on IDUN:
 
 
 ```bash
